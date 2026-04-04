@@ -1,0 +1,26 @@
+# Vivado generated output — do not track
+Vivado/Vivado.cache/
+Vivado/Vivado.hw/
+Vivado/Vivado.ip_user_files/
+Vivado/Vivado.runs/
+Vivado/Vivado.sim/
+
+# Keep sources and project file
+# Vivado/Vivado.srcs/   <- tracked
+# Vivado/Vivado.xpr     <- tracked
+
+# Simulation waveform dumps
+*.vcd
+*.wdb
+
+# Vivado log and journal files
+*.log
+*.jou
+
+# Vivado backup files
+*.bak
+*.backup.xpr
+
+# OS
+.DS_Store
+Thumbs.db
