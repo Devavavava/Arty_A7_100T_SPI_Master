@@ -11,7 +11,7 @@
 module naive_SPI #(
     parameter CLK_FREQ  = 100_000_000, // FPGA system clock (Hz)
     parameter SPI_FREQ  =   1_000_000, // SPI clock (Hz)
-    parameter LED_SHIFT =            4 // divide tx_byte by 2^LED_SHIFT for LED rate
+    parameter LED_SHIFT =            8 // divide tx_byte by 2^LED_SHIFT for LED rate
 )(
     input  wire clk,        // system clock
     input  wire rst,        // active-high synchronous reset
